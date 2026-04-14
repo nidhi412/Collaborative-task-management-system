@@ -1,0 +1,162 @@
+
+.button
+{
+  -fx-background-color :  #A8AAFF;
+  -fx-background-radius : 0em;
+}
+
+.button:hover
+{
+  -fx-background-color : #A89DDA;
+}
+
+.button:pressed
+{
+  -fx-background-color : #7156DD;
+}
+
+.button:focused{
+  -fx-background-color: #7D6CC8;
+  -fx-border-color : #CDD1D6;
+  -fx-border-width: 0px 0px 0px 3px;
+}
+
+.button2
+{
+  -fx-background-color :  #FFFFFF;
+  -fx-background-radius : 1px 1px 1px 1px;
+    -fx-border-color : #CDD1D6;
+  -fx-border-width: 1px ;
+}
+
+.button2:hover
+{
+  -fx-background-color :  #FFFFFF;
+  -fx-border-color : #CDD1D6;
+  -fx-border-width: 1px ;
+}
+
+.button2:pressed
+{
+  -fx-background-color : #6F5CC2;
+}
+
+.button2:focused{
+  -fx-background-color: #6F5CC2;
+   -fx-background-radius : 1em;
+  -fx-fill-color: #FFFFFF 
+}
+
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+  -fx-cell-size : 20;
+  -fx-background-color: #FFFFFF;
+}
+
+.table-view .column-header .label{
+  -fx-text-fill: #52438F;
+  -fx-alignment: CENTER_LEFT;
+}
+
+.table-view .cell{
+  -fx-cell-size: 30;
+  -fx-alignment: center-left;
+  -fx-text-fill: #000000;
+  -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell:selected {
+  -fx-background-color: rgb(235, 233, 246); /* Equivalent of #EBE9F6 */
+}
+
+
+.table-row-cell:selected .text {
+  -fx-fill: #52438F;
+}
+
+
+
+#projectButton1, #projectButton2, #projectButton3,
+#projectButton4, #projectButton5, #projectButton6 
+{
+    -fx-background-color: linear-gradient(to bottom, #7FD1F6, #FFC8A2); /* Soft gradient for a light glow */
+    -fx-border-color: #FFFFFF; /* White border for contrast */
+    -fx-border-radius: 20px; /* Rounded corners */
+    -fx-background-radius: 20px; /* Matching background radius */
+    -fx-padding: 15; /* Inner spacing */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-size: 16px; /* Font size for clarity */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.1, 0, 2); /* Subtle shadow */
+    -fx-alignment: center; /* Text alignment */
+}
+
+#projectButton1:hover, #projectButton2:hover, #projectButton3:hover,
+#projectButton4:hover, #projectButton5:hover, #projectButton6:hover 
+{
+    -fx-background-color: linear-gradient(to bottom, #FFC8A2, #7FD1F6); /* Reverse gradient on hover */
+    -fx-border-color: #FFFFFF; /* Keep the border consistent */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0.2, 0, 3); /* Slightly deeper shadow */
+}
+
+#projectButton1:pressed, #projectButton2:pressed, #projectButton3:pressed, 
+#projectButton4:pressed, #projectButton5:pressed, #projectButton6:pressed 
+{
+   -fx-background-color: linear-gradient(to bottom, #FFC8A2, #7FD1F6); /* Maintain hover appearance */
+    -fx-padding: 14; /* Slight padding reduction for pressed effect */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.3, 0, 2); /* Stronger shadow for click */
+}
+
+
+
+/* Specific styles for inviteAdminButton and inviteMemberButton */
+/* Specific styles for inviteAdminButton and inviteMemberButton */
+#inviteAdminButton, #inviteMemberButton {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-padding: 5 10;
+}
+
+#inviteAdminButton:hover, #inviteMemberButton:hover {
+    -fx-background-color: #45A049;
+}
+
+#inviteAdminButton:pressed, #inviteMemberButton:pressed {
+    -fx-background-color: #388E3C;
+}
+
+
+.scroll-pane {
+    -fx-fit-to-width: true;
+}
+
+.vbox {
+    -fx-spacing: 10;
+}
+
+.highlighted {
+    -fx-background-color: #A89DDA;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.highlighted:hover {
+    -fx-background-color: #7156DD;
+}
+/* Table button actions (setActionCellFactory-generated buttons) */
+.table-view .cell > .button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-padding: 5 10;
+}
+.table-view .cell > .button:hover {
+    -fx-background-color: #45A049;
+}
+.table-view .cell > .button:pressed {
+    -fx-background-color: #388E3C;
+}
+
